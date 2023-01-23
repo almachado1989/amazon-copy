@@ -36,13 +36,13 @@ body {
 
 .background {
     height: 100vh;
-    width: calc(100% - 2rem);
+    width: calc(100% - 1rem);
     background-image:
         linear-gradient(to bottom, transparent, 66%, rgb(231, 231, 231)), 
         linear-gradient(to right, rgb(0, 129, 180), rgba(116, 252, 43, 0.416));
     position: absolute;
     top: 0;
-    left: 1rem;
+    left: 0.5rem;
     z-index: -1;
 }
 
@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
     max-width: 100%;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .card {
