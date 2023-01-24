@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(231, 231, 231);
+    background-color: lightgray;
     font-family: 'Amazon Ember', sans-serif;
     margin: 0;
 }
@@ -39,7 +39,7 @@ body {
     width: calc(100% - 1rem);
     background-image:
         linear-gradient(to bottom, transparent, 66%, rgb(231, 231, 231)), 
-        linear-gradient(to right, rgb(180, 147, 0), rgba(116, 252, 43, 0.416));
+        linear-gradient(to right, rgb(0, 129, 180), rgba(116, 252, 43, 0.416));
     position: absolute;
     top: 0;
     left: 0.5rem;
